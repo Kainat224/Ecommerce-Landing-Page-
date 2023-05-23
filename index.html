@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Ecommerce Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <!-- Top bar -->
+      <div
+        class="bg-[url('/images/svgs/header-vector.svg')] h-[40px] bg-black flex flex-row items-center justify-center"
+      >
+        <p class="text-[16px] text-white font-bold">
+          Diamond solitaire stud earrings starting at $350
+          <span><a href="#" class="underline-offset-1">Shop Now</a></span>
+        </p>
+      </div>    
+      <nav class="container mx-auto px-[60px] hidden md:block">
+        <div class="flex flex-row font-bold justify-between items-center h-[60px]">
+           <ul class="flex flex-row gap-4 ">
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Shop</a> </li>
+             <li><a href="#">Learn</a> </li>
+           </ul>
+           <img src="images/svgs/Logo.svg" alt="">
+           <ul class="flex flex-row gap-4">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a> </li>
+            <li><a href="#">Learn</a> </li>
+          </ul>
+        </div>
+       </nav>  
+    </header>
+
+    <section class="flex flex-col container mx-auto gap-[60px] p-[60px]">
+     <!-- Better Products --> 
+     <section class="flex flex-col ">
+      <div class="container mx-auto">
+        <h1 class="text-center font-bold text-[60px]">Better Products</h1>
+        <p class="text-center text-[20px]">View the list of different shapes that have to offer to you. </p>
+        <!-- Products -->
+        <div class="flex  flex-wrap justify-between md:flex-row gap-y-4 pt-[40px]">
+          <div class="w-[50%] md:w-[150px] flex flex-col items-center">
+            <img src="images/product1.png" class="h-[180px]" alt="">
+            <h3 class="font-bold text-[24px] pr-2"> Brands</h3>
+            <a href="#" class="text-[#FEC10F] ">140 Products<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="w-[50%] md:w-[200px] flex flex-col items-center">
+            <img src="images/product2.png" class="h-[180px]" alt="">
+            <h3 class="font-bold text-[24px] pr-2"> Brands</h3>
+            <a href="#" class="text-[#FEC10F] ">140 Products<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="w-[50%] md:w-[200px] flex flex-col items-center">
+            <img src="images/product3.png" class="h-[180px]" alt="">
+            <h3 class="font-bold text-[24px] pr-2"> Brands</h3>
+            <a href="#" class="text-[#FEC10F] ">140 Products<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          
+          <div class="w-[50%] md:w-[200px] flex flex-col items-center">
+            <img src="images/product4.png" class="h-[180px]" alt="">
+            <h3 class="font-bold text-[24px] pr-2"> Brands</h3>
+            <a href="#" class="text-[#FEC10F] ">140 Products<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="w-[50%] md:w-[200px] flex flex-col items-center">
+            <img src="images/product5.png" class="h-[180px]" alt="">
+            <h3 class="font-bold text-[24px] pr-2"> Brands</h3>
+            <a href="#" class="text-[#FEC10F] ">140 Products<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+
+          <div class="w-[50%] md:w-[200px] flex flex-col items-center">
+            <img src="images/product6.png" class="h-[180px]" alt="">
+            <h3 class="font-bold text-[24px] pr-2"> Brands</h3>
+            <a href="#" class="text-[#FEC10F] ">140 Products<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+     </section>
+    </section>
+     <!-- Whole Sale sec -->
+ 
+    <section class="bg-[url('images/section-bg.png')] bg-cover bg-center">
+     <div class="container mx-auto flex flex-col md:flex-row gap-[60px] justify-between p-[80px] ">
+      <div class=" flex flex-col justify-center items-start">
+        <h1 class="font-bold text-[60px] leading-[60px] text-white">Get Wholesale Enquiries</h1>
+        <p class="py-[20px] text-white">Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <button class="border-[1px] border-[#FEC10F] rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] text-white hover:text-black">Learn More</button>
+      </div>
+      <img src="images/top-product.png" class="w-[400px] h-[400px] " alt="">
+     </div>
+    </section>
+
+    <!-- Trending products -->
+    <section class="container mx-auto flex flex-col gap-[60px] p-[60px]">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <h1 class="font-bold text-[40px] ">Trending products that<br /> would love</h1>
+        <p class="text-[20px]">
+          View the list of different shapes that have to offer to you.
+        </p>
+      </div>
+
+      <div class="flex flex-col md:flex-row  justify-between gap-5">
+
+          <div class="w-[100%] md:w-[32%]">
+            <div class="flex flex-col items-center border-[1px] p-[10px] rounded-[5px]">
+              <img src="images/slide1.png" class="h-[350px]" alt="">
+            </div>
+            <h4 class="text-[16px] text-[#707070]">Delta 8 Vapes</h4>
+            <div class="flex flex-row">
+              <h2 class="text-[20px]">Strawberry Dream 2G Detlta 8 DART XL</h2>
+              <h3 class="font-bold text-[20px]">$39.99</h3>
+            </div>
+            <div class="flex flex-row py-4">
+              <img src="images/svgs/stars.svg" alt="">
+              <h3 class="font-bold text-[20px] pl-4">23</h3>
+            </div>
+            <div class="flex flex-row justify-between">
+              <div class="flex flex-row items-center w-[120px] justify-center bg-[#F5F5F5] p-[6px] rounded-[6px]">
+                <button>-</button>
+                <input type="text" value="1" class="text-center w-[60px] bg-transparent ">
+                <button>+</button>
+              </div>
+              <button class="border-[1px] border-[#FEC10F] rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+            </div>
+          </div>
+
+          <div class="w-[100%] md:w-[32%]">
+            <div class="flex flex-col items-center border-[1px] p-[10px] rounded-[5px]">
+              <img src="images/product6.png" class="h-[350px]" alt="">
+            </div>
+            <h4 class="text-[16px] text-[#707070]">Delta 8 Vapes</h4>
+            <div class="flex flex-row">
+              <h2 class="text-[20px]">Strawberry Dream 2G Detlta 8 DART XL</h2>
+              <h3 class="font-bold text-[20px]">$39.99</h3>
+            </div>
+            <div class="flex flex-row py-4">
+              <img src="images/svgs/stars.svg" alt="">
+              <h3 class="font-bold text-[20px] pl-4">23</h3>
+            </div>
+            <div class="flex flex-row justify-between">
+              <div class="flex flex-row items-center w-[120px] justify-center bg-[#F5F5F5] p-[6px] rounded-[6px]">
+                <button>-</button>
+                <input type="text" value="1" class="text-center w-[60px] bg-transparent ">
+                <button>+</button>
+              </div>
+              <button class="border-[1px] border-[#FEC10F] rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+            </div>
+          </div>
+
+          <div class="w-[100%] md:w-[32%]">
+            <div class="flex flex-col items-center border-[1px] p-[10px] rounded-[5px]">
+              <img src="images/product7.png" class="h-[350px]" alt="">
+            </div>
+            <h4 class="text-[16px] text-[#707070]">Delta 8 Vapes</h4>
+            <div class="flex flex-row">
+              <h2 class="text-[20px]">Strawberry Dream 2G Detlta 8 DART XL</h2>
+              <h3 class="font-bold text-[20px]">$39.99</h3>
+            </div>
+            <div class="flex flex-row py-4">
+              <img src="images/svgs/stars.svg" alt="">
+              <h3 class="font-bold text-[20px] pl-4">23</h3>
+            </div>
+            <div class="flex flex-row justify-between">
+              <div class="flex flex-row items-center w-[120px] justify-center bg-[#F5F5F5] p-[6px] rounded-[6px]">
+                <button>-</button>
+                <input type="text" value="1" class="text-center w-[60px] bg-transparent ">
+                <button>+</button>
+              </div>
+              <button class="border-[1px] border-[#FEC10F] rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+            </div>
+          </div>
+    
+      </div>
+
+      <div class="flex flex-col md:flex-row  justify-between gap-5">
+
+        <div class="w-[100%] md:w-[32%]">
+          <div class="flex flex-col items-center border-[1px] p-[10px] rounded-[5px]">
+            <img src="images/slide1.png" class="h-[350px]" alt="">
+          </div>
+          <h4 class="text-[16px] text-[#707070]">Delta 8 Vapes</h4>
+          <div class="flex flex-row">
+            <h2 class="text-[20px]">Strawberry Dream 2G Detlta 8 DART XL</h2>
+            <h3 class="font-bold text-[20px]">$39.99</h3>
+          </div>
+          <div class="flex flex-row py-4">
+            <img src="images/svgs/stars.svg" alt="">
+            <h3 class="font-bold text-[20px] pl-4">23</h3>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center w-[120px] justify-center bg-[#F5F5F5] p-[6px] rounded-[6px]">
+              <button>-</button>
+              <input type="text" value="1" class="text-center w-[60px] bg-transparent ">
+              <button>+</button>
+            </div>
+            <button class="border-[1px] border-[#FEC10F] rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+          </div>
+        </div>
+
+        <div class="w-[100%] md:w-[32%] ">
+          <div class="flex flex-col items-center border-[1px] p-[10px] rounded-[5px]">
+            <img src="images/product6.png" class="h-[350px]" alt="">
+          </div>
+          <h4 class="text-[16px] text-[#707070]">Delta 8 Vapes</h4>
+          <div class="flex flex-row">
+            <h2 class="text-[20px]">Strawberry Dream 2G Detlta 8 DART XL</h2>
+            <h3 class="font-bold text-[20px]">$39.99</h3>
+          </div>
+          <div class="flex flex-row py-4">
+            <img src="images/svgs/stars.svg" alt="">
+            <h3 class="font-bold text-[20px] pl-4">23</h3>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center w-[120px] justify-center bg-[#F5F5F5] p-[6px] rounded-[6px]">
+              <button>-</button>
+              <input type="text" value="1" class="text-center w-[60px] bg-transparent ">
+              <button>+</button>
+            </div>
+            <button class="border-[1px] border-[#FEC10F] rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+          </div>
+        </div>
+
+        <div class="w-[100%] md:w-[32%]">
+          <div class="flex flex-col items-center border-[1px] p-[10px] rounded-[5px]">
+            <img src="images/product7.png" class="h-[350px]" alt="">
+          </div>
+          <h4 class="text-[16px] text-[#707070]">Delta 8 Vapes</h4>
+          <div class="flex flex-row">
+            <h2 class="text-[20px]">Strawberry Dream 2G Detlta 8 DART XL</h2>
+            <h3 class="font-bold text-[20px]">$39.99</h3>
+          </div>
+          <div class="flex flex-row py-4">
+            <img src="images/svgs/stars.svg" alt="">
+            <h3 class="font-bold text-[20px] pl-4">23</h3>
+          </div>
+          <div class="flex flex-row justify-between">
+            <div class="flex flex-row items-center w-[120px] justify-center bg-[#F5F5F5] p-[6px] rounded-[6px]">
+              <button>-</button>
+              <input type="text" value="1" class="text-center w-[60px] bg-transparent ">
+              <button>+</button>
+            </div>
+            <button class="border-[1px] border-[#FEC10F] rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col items-center">
+        <button class="border-[1px] border-[#FEC10F] rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+        <p class="text-[12px]">30 Days money back guarantee</p>
+      </div>
+    </section>
+ 
+
+    <!-- Latest News -->
+     <section class="container mx-auto flex flex-col gap-[60px] p-[60px]">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <h1 class="font-bold text-[40px] ">Latest news on nicotine world</h1>
+        <p class="text-[20px]">
+          View the list of different shapes that have to offer to you. 
+        </p>
+      </div>
+
+      <div class="flex flex-col md:flex-row gap-[10px]"> 
+        <div class="w-[100%] md:w-[50%]">
+          <div class="bg-[url('images/ad1.png')] bg-cover bg-no-repeat h-[350px] flex flex-col justify-end p-[20px] relative">
+            <div class="absolute left-0 right-0 top-0 bottom-0 bg-[#000] opacity-[0.6]"></div>
+            <div class="text-white relative z-[2]">
+              <h3 class="font-bold text-[24px]">The power of HHC</h3>
+              <p class="text-[16px] py-2">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <button class="border-[1px] border-white rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+    
+        <div class="w-[100%] md:w-[50%] ">
+          <div class="bg-[url('images/ad2.png')] bg-cover bg-no-repeat h-[350px] flex flex-col justify-end p-[20px] relative">
+            <div class="absolute left-0 right-0 top-0 bottom-0 bg-[#000] opacity-[0.6]"></div>
+            <div class="text-white relative z-[2]">
+              <h3 class="font-bold text-[24px]">The power of HHC</h3>
+              <p class="text-[16px] py-2">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+              <button class="border-[1px] border-white rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+   
+     <!-- High Quality Stuff -->
+    <section class="bg-[url('images/section-wall.png')] bg-contain bg-right-top bg-no-repeat
+     h-[500px] flex items-center  relative bg-black ">
+    <div class="container mx-auto p-[60px]">
+     <img class="absolute top-0 left-0" src="images/svgs/section-vector.svg" alt="">
+     <div class="container mx-auto">
+        <div>
+          <div class="w-auto md:w-[400px] text-white text-left">
+            <img src="images/svgs/stars.svg" alt="">
+            <h1 class="text-[60px] font-bold leading-[60px]">High Quality Stuff!</h1>
+            <p class="py-4">Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          </div> 
+          <div class="flex flex-row gap-3 items-center">
+            <img src="images/user3.png" alt="">
+            <p class="text-white">Anna Mark</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Testimonials  -->
+
+    <section class=" bg-black">
+      <div class="container mx-auto flex flex-col px-[60px] justify-between md:flex-row gap-[10px] flex-wrap ">
+        <div class="border-2 p-[20px] rounded-[20px]">
+          <div class="w-auto md:w-[330px] text-white text-left">
+            <img src="images/svgs/stars.svg" alt="">  
+            <p class="py-4">I couldnt’t have asked for more than this. Its just amazing 🔥🔥, I would recommend it to all those who like customized dresses</p>
+          </div> 
+          <div class="flex flex-row gap-3 items-center">
+            <img src="images/user3.png" alt="">
+            <p class="text-white">Anna Mark</p>
+          </div> 
+        </div>
+
+        <div class="border-2 p-[20px] rounded-[20px]">
+          <div class="w-auto md:w-[330px] text-white text-left">
+            <img src="images/svgs/stars.svg" alt="">  
+            <p class="py-4">I couldnt’t have asked for more than this. Its just amazing 🔥🔥, I would recommend it to all those who like customized dresses</p>
+          </div> 
+          <div class="flex flex-row gap-3 items-center">
+            <img src="images/user3.png" alt="">
+            <p class="text-white">Anna Mark</p>
+          </div> 
+        </div>
+
+        <div class="border-2 p-[20px] rounded-[20px]">
+          <div class="w-auto md:w-[330px] text-white text-left">
+            <img src="images/svgs/stars.svg" alt="">  
+            <p class="py-4">I couldnt’t have asked for more than this. Its just amazing 🔥🔥, I would recommend it to all those who like customized dresses</p>
+          </div> 
+          <div class="flex flex-row gap-3 items-center">
+            <img src="images/user3.png" alt="">
+            <p class="text-white">Anna Mark</p>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Latest News -->
+    <section class="flex flex-col gap-[60px] md:px-[60px] py-[120px] bg-black">
+      <div class="container mx-auto p-[60px]">
+        <div class=" flex flex-col md:flex-row justify-between items-center text-white">
+          <h1 class="font-bold text-[40px] ">Latest news on nicotine world</h1>
+          <p class="text-[20px]">
+            View the list of different shapes that have to offer to you. 
+          </p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-[10px]"> 
+          <div class="w-[100%] md:w-[50%]">
+            <div class="bg-[url('images/ad1.png')] bg-cover bg-no-repeat h-[350px] flex flex-col justify-end p-[20px] relative">
+              <div class="absolute left-0 right-0 top-0 bottom-0 bg-[#000] opacity-[0.6]"></div>
+              <div class="text-white relative z-[2]">
+                <h3 class="font-bold text-[24px]">The power of HHC</h3>
+                <p class="text-[16px] py-2">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                <button class="border-[1px] border-white rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+              </div>
+            </div>
+          </div>
+
+      
+          <div class="w-[100%] md:w-[50%] ">
+            <div class="bg-[url('images/ad2.png')] bg-cover bg-no-repeat h-[350px] flex flex-col justify-end p-[20px] relative">
+              <div class="absolute left-0 right-0 top-0 bottom-0 bg-[#000] opacity-[0.6]"></div>
+              <div class="text-white relative z-[2]">
+                <h3 class="font-bold text-[24px]">The power of HHC</h3>
+                <p class="text-[16px] py-2">Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                <button class="border-[1px] border-white rounded-[3px] px-[50px] py-[12px] hover:bg-[#FEC10F] hover:text-black ">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+   
+
+    <footer class="bg-black text-white">
+      <!-- footer -->
+      <div
+        class="container mx-auto flex md:flex-row flex-wrap gap-y-4 md:gap-[30px] p-[60px] justify-between "
+      >
+        <!-- Logo section -->
+        <div class="w-full md:w-auto flex flex-col items-center md:items-start gap-5">
+          <img src="images/svgs/Logo.svg" class="h-[40px]" alt="" />
+          <p class="w-[350px] text-center md:text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
+            lorem elementum egestas cras non porta quam magna scelerisque.
+          </p>
+          <ul class="flex flex-row items-center gap-5">
+            <li>
+              <a href="#"><img src="images/svgs/twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/svgs/facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/svgs/instagram.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="images/svgs/github.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+        
+          <!-- Product Sec -->
+          <ul class="flex flex-col w-[50%] md:w-auto gap-2">
+            <li><h4 class="font-bold">Product</h4></li>
+            <li>How it works</li>
+            <li>Benefits</li>
+            <li>Features</li>
+            <li>Pricing</li>
+          </ul>
+          <!-- Product Sec -->
+          <ul class="flex flex-col w-[50%] md:w-auto gap-2">
+            <li><h4 class="font-bold">Product</h4></li>
+            <li>How it works</li>
+            <li>Benefits</li>
+            <li>Features</li>
+            <li>Pricing</li>
+          </ul>
+          <!-- Product Sec -->
+          <ul class="flex flex-col w-[50%] md:w-auto gap-2">
+            <li><h4 class="font-bold">Product</h4></li>
+            <li>How it works</li>
+            <li>Benefits</li>
+            <li>Features</li>
+            <li>Pricing</li>
+          </ul>
+          <!-- Product Sec -->
+          <ul class="flex flex-col w-[50%] md:w-auto gap-2">
+            <li><h4 class="font-bold">Product</h4></li>
+            <li>How it works</li>
+            <li>Benefits</li>
+            <li>Features</li>
+            <li>Pricing</li>
+          </ul>
+      </div>
+      <!-- Footer Bottom -->
+      <div
+        class="bg-[url('/images/svgs/copyright-vector.svg')] h-[40px]  bg-left bg-no-repeat bg-black flex flex-row items-center justify-center border-t border-[#BF920F] relative"
+      >
+      <img src="images/svgs/copyright-vector.svg" class="h-[40px] absolute
+      right-0 top-0 bottom-0 z-2" alt="">
+        <p class="text-[16px] text-white font-bold">@2023 All Right Reserved</p>
+      </div>
+      
+    </footer>
+  </body>
+</html>
